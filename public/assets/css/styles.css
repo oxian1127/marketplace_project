@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Agrega al final del archivo css/styles.css */
+
+#contactForm {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#contactForm button {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #45a049;
+}
+
+/* Agrega al final del archivo css/styles.css */
+
+#contactForm {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#contactForm button {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #45a049;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.product img {
+    width: 100%;
+    /* Ajustar el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    /* Ajustar la altura automáticamente para mantener la proporción */
+    max-width: 100%;
+    /* Limitar el ancho máximo de la imagen */
+    max-height: 200px;
+    /* Limitar la altura máxima de la imagen */
+    display: block;
+    /* Evitar espacio adicional debajo de las imágenes */
+    margin-top: 10px;
+}
+
+.product button {
+    display: block;
+    width: 100%;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+#contactForm {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
